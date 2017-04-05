@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\carlo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@2.12.1
+3 info using node@v5.10.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart angular-quickstart@1.0.0
+6 verbose unsafe-perm in lifecycle true
+7 info angular-quickstart@1.0.0 Failed to exec prestart script
+8 verbose stack Error: angular-quickstart@1.0.0 prestart: `npm run build`
+8 verbose stack Exit status 1
+8 verbose stack     at EventEmitter.<anonymous> (C:\Users\carlo\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:213:16)
+8 verbose stack     at emitTwo (events.js:100:13)
+8 verbose stack     at EventEmitter.emit (events.js:185:7)
+8 verbose stack     at ChildProcess.<anonymous> (C:\Users\carlo\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:24:14)
+8 verbose stack     at emitTwo (events.js:100:13)
+8 verbose stack     at ChildProcess.emit (events.js:185:7)
+8 verbose stack     at maybeClose (internal/child_process.js:850:16)
+8 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+9 verbose pkgid angular-quickstart@1.0.0
+10 verbose cwd C:\Users\carlo\Documents\Angular-project\quickstart-master\src
+11 error Windows_NT 10.0.14393
+12 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\carlo\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+13 error node v5.10.1
+14 error npm  v2.12.1
+15 error code ELIFECYCLE
+16 error angular-quickstart@1.0.0 prestart: `npm run build`
+16 error Exit status 1
+17 error Failed at the angular-quickstart@1.0.0 prestart script 'npm run build'.
+17 error This is most likely a problem with the angular-quickstart package,
+17 error not with npm itself.
+17 error Tell the author that this fails on your system:
+17 error     npm run build
+17 error You can get their info via:
+17 error     npm owner ls angular-quickstart
+17 error There is likely additional logging output above.
+18 verbose exit [ 1, true ]
